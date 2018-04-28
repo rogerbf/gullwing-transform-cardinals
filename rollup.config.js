@@ -9,7 +9,7 @@ export default [
     output: {
       file: pkg.browser,
       format: `umd`,
-      name: `gullwing.transformers.cardinal`,
+      name: `gullwing.transformers.cardinals`,
       globals: {
         "make-plural/make-plural": `makePlural`,
       },

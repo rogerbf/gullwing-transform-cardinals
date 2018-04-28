@@ -1,18 +1,18 @@
 import makePlural from "make-plural/make-plural"
 
-const cardinal = ({ options, parameters, parameter }) => {
+const cardinals = ({ options, parameters, parameter }) => {
   const MakePlural = makePlural.load({
     supplemental: {
       "plurals-type-cardinal": { rules: options.rules },
     },
   })
 
-  const cardinal = new MakePlural(`rules`)
+  const cardinals = new MakePlural(`rules`)
 
-  return options[parameter][cardinal(parameters[parameter])].replace(
+  return options[parameter][cardinals(parameters[parameter])].replace(
     `{{ ${ parameter } }}`,
     parameters[parameter]
   )
 }
 
-export default cardinal
+export default cardinals

@@ -1,10 +1,10 @@
 {
-  "name": "gullwing-transform-cardinal",
+  "name": "gullwing-transform-cardinals",
   "version": "1.0.0",
-  "description": "cardinal transform",
-  "main": "dist/gullwing-transform-cardinal.cjs.js",
-  "module": "dist/gullwing-transform-cardinal.esm.js",
-  "browser": "dist/gullwing-transform-cardinal.umd.js",
+  "description": "transform cardinal numbers",
+  "main": "dist/gullwing-transform-cardinals.cjs.js",
+  "module": "dist/gullwing-transform-cardinals.esm.js",
+  "browser": "dist/gullwing-transform-cardinals.umd.js",
   "scripts": {
     "build": "NODE_ENV=build rollup -c",
     "test": "NODE_ENV=test jest",
@@ -22,7 +22,7 @@
     "localization",
     "globalization",
     "transform",
-    "cardinal",
+    "cardinals",
     "cldr"
   ],
   "author": "rogerbf <roger@bergfa.lk> (http://bergfa.lk/)",
