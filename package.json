@@ -23,7 +23,8 @@
     "globalization",
     "transform",
     "cardinals",
-    "cldr"
+    "cldr",
+    "pluralization"
   ],
   "author": "rogerbf <roger@bergfa.lk> (http://bergfa.lk/)",
   "license": "MIT",
